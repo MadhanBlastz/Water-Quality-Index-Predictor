@@ -1,5 +1,8 @@
 # 💧 Water Quality Index (WQI) Predictor
 
+🚀 **Live App:**  
+👉 https://water-quality-index-predictor.streamlit.app/
+
 ---
 
 ## 📌 Project Overview
