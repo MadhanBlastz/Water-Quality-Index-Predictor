@@ -13,8 +13,7 @@ The application is built using:
 - NumPy
 - Joblib
 
-🚀 **Live App:**  
-👉 https://water-quality-index-predictor.streamlit.app/
+🚀 **Live App:**    https://water-quality-index-predictor.streamlit.app/
 
 ---
 
