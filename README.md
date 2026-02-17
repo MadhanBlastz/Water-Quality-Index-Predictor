@@ -95,11 +95,13 @@ You can deploy this project for free on:
 ```
 Water-Quality-Index-Predictor/
 │
+├──.ipynb_checkpoints
+├──Water_Final.ipynb
 ├── app.py
+├──data.docx
 ├── hybrid_wqi_model.pkl
 ├── scaler.pkl
 ├── imputer.pkl
-├── requirements.txt
 └── README.md
 ```
 
@@ -117,8 +119,8 @@ Water-Quality-Index-Predictor/
 ## 👨‍💻 Author
 **Madhankumar**
 
-- LinkedIn: Add your LinkedIn profile link  
-- GitHub: Add your GitHub profile link  
+- LinkedIn: 
+- GitHub:  
 
 ---
 
