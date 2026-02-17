@@ -1,8 +1,5 @@
 # 💧 Water Quality Index (WQI) Predictor
 
-🚀 **Live App:**  
-👉 https://water-quality-index-predictor.streamlit.app/
-
 ---
 
 ## 📌 Project Overview
@@ -15,6 +12,9 @@ The application is built using:
 - Scikit-learn
 - NumPy
 - Joblib
+
+🚀 **Live App:**  
+👉 https://water-quality-index-predictor.streamlit.app/
 
 ---
 
