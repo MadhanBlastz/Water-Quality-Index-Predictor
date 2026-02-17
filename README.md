@@ -99,6 +99,7 @@ Water-Quality-Index-Predictor/
 ├──Water_Final.ipynb
 ├── app.py
 ├──data.docx
+├──requirements.txt
 ├── hybrid_wqi_model.pkl
 ├── scaler.pkl
 ├── imputer.pkl
