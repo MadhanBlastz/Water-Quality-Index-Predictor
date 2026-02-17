@@ -1,93 +1,97 @@
-💧 Water Quality Index (WQI) Predictor
+# 💧 Water Quality Index (WQI) Predictor
 
-A Machine Learning based web application that predicts the Water Quality Index (WQI) and classifies water quality as Excellent, Good, Poor, or Very Poor using physicochemical parameters.
+---
 
-Built using Streamlit, Scikit-learn, and Python.
+## 📌 Project Overview
+This project is a Machine Learning-based web application that predicts the **Water Quality Index (WQI)** using important physicochemical water parameters.  
+It helps determine whether water is safe or unsafe based on scientific measurements.
 
-📌 Project Overview
+The application is built using:
+- Python
+- Streamlit
+- Scikit-learn
+- NumPy
+- Joblib
 
-Water Quality Index (WQI) is an important indicator used to evaluate the overall quality of water for drinking and other purposes.
+---
 
-This project:
+## ⚙️ Features
+- ✅ User-friendly Streamlit interface  
+- ✅ Real-time WQI prediction  
+- ✅ Automatic preprocessing (Imputer + Scaler)  
+- ✅ Color-coded water quality classification  
+- ✅ ML model integration (.pkl files)  
+- ✅ Lightweight and easy to deploy  
 
-Accepts water parameters as input
+---
 
-Uses a trained ML model
+## 📊 Input Parameters
+The model accepts the following water quality parameters:
 
-Predicts WQI value
+- pH  
+- TDS (Total Dissolved Solids)  
+- Chloride (Cl)  
+- Sulphate (SO4)  
+- Sodium (Na)  
+- Potassium (K)  
+- Calcium (Ca)  
+- Magnesium (Mg)  
+- Total Hardness  
 
-Classifies water quality level
+---
 
-⚙️ Features
+## 🧠 Machine Learning Model
+- Trained using water quality dataset  
+- Model file: `hybrid_wqi_model.pkl`  
+- Preprocessing files:
+  - `imputer.pkl`
+  - `scaler.pkl`
+- Used Scikit-learn for training and prediction  
 
-✅ User-friendly Streamlit interface
-✅ Real-time WQI prediction
-✅ Automatic data preprocessing (Imputer + Scaler)
-✅ Color-coded water quality classification
-✅ Machine Learning model integration
+---
 
-📊 Input Parameters
+## 🏷 Water Quality Classification
 
-The model takes the following inputs:
+| WQI Range | Category      |
+|-----------|--------------|
+| 0 – 50    | Excellent    |
+| 51 – 100  | Good         |
+| 101 – 200 | Poor         |
+| > 200     | Very Poor    |
 
-pH
+---
 
-TDS (Total Dissolved Solids)
+## 🚀 How to Run Locally
 
-Chloride (Cl)
-
-Sulphate (SO4)
-
-Sodium (Na)
-
-Potassium (K)
-
-Calcium (Ca)
-
-Magnesium (Mg)
-
-Total Hardness
-
-🧠 Machine Learning Model
-
-Model file: hybrid_wqi_model.pkl
-
-Preprocessing:
-
-imputer.pkl
-
-scaler.pkl
-
-Libraries used:
-
-NumPy
-
-Scikit-learn
-
-Joblib
-
-🚀 How to Run Locally
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/wqi-predictor.git
 cd wqi-predictor
+```
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run the application
+### 3️⃣ Run the application
+```bash
 streamlit run app.py
+```
 
-🌐 Deployment
+---
 
-This project can be deployed for free on:
+## 🌐 Deployment
+You can deploy this project for free on:
 
-Streamlit Community Cloud (Recommended)
+- Streamlit Community Cloud (Recommended)
+- Render
+- Railway
 
-Render
+---
 
-Railway
-
-📂 Project Structure
+## 📂 Project Structure
+```
 WQI-Predictor/
 │
 ├── app.py
@@ -96,19 +100,25 @@ WQI-Predictor/
 ├── imputer.pkl
 ├── requirements.txt
 └── README.md
+```
 
-🏷 Water Quality Classification
-WQI Range	Category
-0 – 50	Excellent
-51 – 100	Good
-101 – 200	Poor
-> 200	Very Poor
-🎯 Future Improvements
+---
 
-Add data visualization charts
+## 🎯 Future Improvements
+- 📊 Add graphical visualizations  
+- 📁 Add CSV file upload option  
+- 📱 Improve mobile responsiveness  
+- 📈 Improve model accuracy with larger dataset  
+- 🔐 Add authentication system  
 
-Add CSV upload option
+---
 
-Deploy as mobile-friendly app
+## 👨‍💻 Author
+**Madhankumar**
 
-Improve model accuracy with more data
+- LinkedIn: Add your LinkedIn profile link  
+- GitHub: Add your GitHub profile link  
+
+---
+
+⭐ If you like this project, consider giving it a star!
