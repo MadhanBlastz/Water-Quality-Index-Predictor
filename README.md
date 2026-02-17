@@ -19,7 +19,6 @@ The application is built using:
 - ✅ User-friendly Streamlit interface  
 - ✅ Real-time WQI prediction  
 - ✅ Automatic preprocessing (Imputer + Scaler)  
-- ✅ Color-coded water quality classification  
 - ✅ ML model integration (.pkl files)  
 - ✅ Lightweight and easy to deploy  
 
@@ -65,13 +64,15 @@ The model accepts the following water quality parameters:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/wqi-predictor.git
-cd wqi-predictor
+git clone https://github.com/MadhanBlastz/water-quality-index-predictor.git
+cd water-quality-index-predictor
 ```
 
 ### 2️⃣ Install dependencies
 ```bash
-pip install -r requirements.txt
+pip install numpy pandas
+pip install streamlit joblib xgboost
+pip install scikit-learn==1.7.2
 ```
 
 ### 3️⃣ Run the application
@@ -92,7 +93,7 @@ You can deploy this project for free on:
 
 ## 📂 Project Structure
 ```
-WQI-Predictor/
+Water-Quality-Index-Predictor/
 │
 ├── app.py
 ├── hybrid_wqi_model.pkl
