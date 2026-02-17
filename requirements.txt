@@ -1,0 +1,7 @@
+python-docx
+streamlit
+numpy
+pandas
+xgboost
+scikit-learn==1.7.2
+joblib
