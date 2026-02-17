@@ -20,7 +20,8 @@ The application is built using:
 
 ## ⚙️ Features
 - ✅ User-friendly Streamlit interface  
-- ✅ Real-time WQI prediction  
+- ✅ Real-time WQI prediction
+- ✅ Color-coded water quality classification  
 - ✅ Automatic preprocessing (Imputer + Scaler)  
 - ✅ ML model integration (.pkl files)  
 - ✅ Lightweight and easy to deploy  
