@@ -13,7 +13,7 @@ The application is built using:
 - NumPy
 - Joblib
 
-🚀 **Live App:**         https://water-quality-index-predictor.streamlit.app/
+🚀 **Live App:**   https://water-quality-index-predictor.streamlit.app/
 
 ---
 
@@ -67,7 +67,7 @@ The model accepts the following water quality parameters:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/MadhanBlastz/water-quality-index-predictor.git
+git clone https://github.com/MadhanBlastz/Water-Quality-Index-Predictor.git
 cd water-quality-index-predictor
 ```
 
@@ -99,10 +99,10 @@ You can deploy this project for free on:
 Water-Quality-Index-Predictor/
 │
 ├──.ipynb_checkpoints
-├──Water_Final.ipynb
+├── Water_Final.ipynb
 ├── app.py
-├──data.docx
-├──requirements.txt
+├── data.docx
+├── requirements.txt
 ├── hybrid_wqi_model.pkl
 ├── scaler.pkl
 ├── imputer.pkl
