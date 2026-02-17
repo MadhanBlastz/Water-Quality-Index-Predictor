@@ -59,4 +59,4 @@ if st.button("Predict WQI"):
         color = "red"
 
     st.markdown(f"## 🔢 Predicted WQI: **{wqi:.2f}**")
-    st.markdown(f"## 🏷 Water Quality: **:{color}[{label}]**")
+    st.markdown( f"<h2>🏷 Water Quality: <span style='color:{color}'>{label}</span></h2>", unsafe_allow_html=True )
