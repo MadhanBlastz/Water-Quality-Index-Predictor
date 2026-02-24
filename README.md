@@ -113,7 +113,7 @@ Water-Quality-Index-Predictor/
 
 ## 🎯 Future Improvements
 - 📊 Add graphical visualizations  
-- 📁 Add CSV file upload option  
+- 📁 Add CSV file upload option
 - 📱 Improve mobile responsiveness  
 - 📈 Improve model accuracy with larger dataset  
 - 🔐 Add authentication system  
